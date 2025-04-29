@@ -1,0 +1,44 @@
+div.event {
+  display: inline-block;
+  height: 200px;
+  width: 100%;
+  margin: 20px 0px;
+  text-align: center;
+}
+div.event:first-of-type {
+  min-height: 340px;
+}
+
+div.event:after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 20px;
+}
+
+div.description {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+div.information {
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0px;
+  text-align: center;
+}
+div.information a, div.information a:visited {
+  text-decoration: underline;
+}
